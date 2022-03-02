@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Menu_principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:layout_marginBottom="5dp">
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/souscription"
+            android:layout_below="@id/password"
+            android:text="@string/souscrire"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="30dp"
+            android:padding="12dp"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/paiement"
+            android:layout_below="@id/password"
+            android:text="@string/paye"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="30dp"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

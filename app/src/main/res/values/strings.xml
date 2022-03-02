@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MiniProjet</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="connexion">Connexion</string>
+    <string name="souscrire">Souscription</string>
+    <string name="paye">New paiement</string>
+    <string name="name">Nom</string>
+    <string name="dateD">Date de début</string>
+    <string name="dateF">Date de fin</string>
+    <string name="prix">prix</string>
+    <string name="liste">Liste des services</string>
+    <string name="user">New User</string>
+    <string name="save">Enregistrement</string>
+    <string name="email">Email</string>
+</resources>
